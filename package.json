@@ -1,0 +1,19 @@
+{
+  "name": "uru",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "author": "thNel",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start:back": "cd ./back/ && npm run start:dev",
+    "start:front": "cd ./app/ && npm run dev",
+    "build:back": "cd ./back/ && npm run build",
+    "build:front": "cd ./app/ && npm run build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0"
+  }
+}
